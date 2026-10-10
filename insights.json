@@ -1,0 +1,30 @@
+[
+  {
+    "sku": "KND-01",
+    "score": 1.0,
+    "flag": false,
+    "seller_message": "Photo tags and title look aligned for this listing.",
+    "transcript": "Seller voice note: this is the navy sisal kiondo I wove last week, not a shoe listing."
+  },
+  {
+    "sku": "NK-99",
+    "score": 0.0,
+    "flag": true,
+    "seller_message": "Your photo tags and title disagree (e.g. bag tags vs shoe title). Please retake the photo or fix the title; moderators will review.",
+    "transcript": ""
+  },
+  {
+    "sku": "BAG-MID",
+    "score": 0.5,
+    "flag": false,
+    "seller_message": "Photo tags and title look aligned for this listing.",
+    "transcript": ""
+  },
+  {
+    "sku": "LSO-02",
+    "score": 0.8165,
+    "flag": false,
+    "seller_message": "Photo tags and title look aligned for this listing.",
+    "transcript": ""
+  }
+]

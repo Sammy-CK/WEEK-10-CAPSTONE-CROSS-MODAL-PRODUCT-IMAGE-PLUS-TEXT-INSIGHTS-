@@ -1,0 +1,32 @@
+name: ci-week10
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  gates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install pytest
+      - run: python make_fixture_images.py
+      - run: python mismatch.py
+      - run: python analytics_starter.py
+      - run: python vocab_gaps.py
+      - run: python insights.py
+      - run: python write_gen_pin.py
+      - run: python stub_render.py
+      - run: pytest -q
+      - run: python check_mismatch.py
+      - run: python check_encoder_pin.py
+      - run: python check_insights.py
+      - run: python check_ethics.py
+      - run: python check_gen_pin_starter.py
+      - run: python check_outputs.py
+      - run: python check_gitignore.py
+      - run: python search.py

@@ -1,0 +1,7 @@
+{
+  "encoder_id": "lab-bow-v1",
+  "source": "lab",
+  "revision": "sidecar-tags-v1",
+  "honesty": "sidecar-tags",
+  "notes": "Join scores use sidecar image_tags and title tokens (mismatch.py), not live CLIP pixels. hf_pipeline.yaml documents optional Hub literacy only."
+}

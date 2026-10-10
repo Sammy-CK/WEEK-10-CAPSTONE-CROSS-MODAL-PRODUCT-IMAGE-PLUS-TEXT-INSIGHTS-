@@ -1,0 +1,9 @@
+{
+  "sku": "KND-01",
+  "format": "png",
+  "prompt_file": "prompts/gen/kiondo_lifestyle_v1.txt",
+  "prompt_sha256": "b6e4e08f86fe6fbb2ea9927d7a934777a33ffc5777c7e7f7b9955842306be256",
+  "not_a_photo_of_the_sku": true,
+  "generator": "gpt-image-1",
+  "request_id": "req_b71f80d550234db8b60b4ea70e1f9bb7"
+}

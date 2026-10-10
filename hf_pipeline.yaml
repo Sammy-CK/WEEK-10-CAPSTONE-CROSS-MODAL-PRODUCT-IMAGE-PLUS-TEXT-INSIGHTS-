@@ -1,0 +1,5 @@
+task: feature-extraction
+model: openai/clip-vit-base-patch32
+revision: f488ac3e67a04896f6084753a40d154a95764510
+device: cpu
+note: "Optional literacy only; join scores in mismatch_report.json come from lab-bow-v1 sidecar tags, not this pipeline."
