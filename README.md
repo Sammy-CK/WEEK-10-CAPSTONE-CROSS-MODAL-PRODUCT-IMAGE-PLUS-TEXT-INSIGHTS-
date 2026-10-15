@@ -71,7 +71,6 @@ python vocab_gaps.py
 - [x] no Whisper (audio `*.txt` sidecars)
 - [x] n is a teaching slice (**four** SKUs, not production catalog)
 
-1:1 talking points: [evidence/one_on_one_defense.md](evidence/one_on_one_defense.md)
 
 ## Checklist
 
